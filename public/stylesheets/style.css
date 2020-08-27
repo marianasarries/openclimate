@@ -127,6 +127,7 @@ button:focus {
 	margin-left: 40px;
 }
 
+
 .main-wrapper{
 
 }
@@ -190,4 +191,157 @@ button:focus {
 .btn-test:hover{
 	text-decoration: none;
 	color: #fff;
+}
+
+
+.page-inner{
+background-image: none;
+background-color: #fff;
+}
+
+
+.navbar-inner{
+	
+}
+
+.navbar-inner .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-inner input.input {
+    border: 1px solid #3de2d2;
+    }
+
+ .navbar-inner input.input:focus {
+    border: 1px solid #3de2d2;
+}
+
+.top-bar-icon-country button {
+    border: 1px solid #3de2d2;
+}
+
+.row-top{
+	margin-bottom: 50px;
+}
+
+.row-top h4{
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3de2d2;
+	letter-spacing: 2px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+.row-top h2{
+	font-family: Poppins;
+	font-size: 45px;
+	font-weight: bold;
+	color: #000;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+.row-top h2 span{
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.row-top p{
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	color:#000;
+}
+
+.row-top p span{
+	font-weight: bold;
+}
+
+.row-main .side-img-wrapper{
+position: relative;
+}
+
+.row-main .side-img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 375px;
+}
+
+.results-list {
+    padding-left: 40px;
+}
+
+.col-item{
+	padding-right: 30px;
+	padding-bottom: 60px;
+	display: flex;
+}
+
+.item-data {
+    padding-left: 30px;
+}
+
+.item-img{
+
+}
+
+.item-img img{
+	width: 96px;
+	height:96px;
+	border-radius: 100%;
+}
+
+.item-data h5{
+	font-family: Poppins;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #384c4a;
+	text-transform: uppercase;
+}
+
+.item-data h4{
+	font-family: Poppins;
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: bold;
+	color: #000;
+}
+
+.item-data p{
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 0;
+}
+
+
+.progress{
+	margin-top: 55px;
+	height: 36px;
+	border-radius: 36px;
+}
+
+.progress h6{	
+	float: right;
+	font-family: Poppins;
+	font-size: 18px;
+	align-self: flex-end;
+    margin-left: 150px;
+}
+
+.progress-bar{
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background: rgb(61,217,225);
+	background: linear-gradient(180deg, rgba(61,217,225,1) 0%, rgba(61,225,211,1) 100%);
+	border-radius: 36px;
 }
